@@ -185,3 +185,16 @@ svg {
     }
 }
 
+@media screen and (max-width: 320px),
+screen and (max-width: 375px) {
+         
+    .question {
+        padding-top: .75em;
+        font-size: .78rem;
+    }
+
+   .answer p {
+    font-size: .75em;
+   }
+}
+
