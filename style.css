@@ -81,7 +81,8 @@ h1 {
 }
 
 .answer {
-    padding-block: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 2em;
     color: hsl(240, 5%, 47%);
 }
 
@@ -91,7 +92,6 @@ h1 {
     overflow: hidden;
     transition: all 300ms ease-in-out;
 }
-
 @keyframes answer {
     from {
         opacity: 0;
@@ -106,7 +106,7 @@ h1 {
 
 .faq.active .answer p {
     max-height: 300;
-    padding-bottom: 4em;
+    padding-bottom: 3em;
     animation: answer 600ms ease-in-out;
     overflow: visible;
 }
